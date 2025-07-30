@@ -112,9 +112,9 @@ main {
 
 .artists-grid, .albums-grid {
     display: grid;
-    grid-template-columns: repeat(autofill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 24px;
-    margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 .artists-card, .albums-card {
@@ -154,13 +154,14 @@ main {
 }
 
 .content h2 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .banner {
     position: fixed;
     bottom: 0;
     right: 0;
+    left: 0;
     background: linear-gradient(90deg, #AF2896, #509BF5);
     display: flex;
     justify-content: space-between;
